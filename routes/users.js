@@ -24,6 +24,7 @@ router.get('/:id', async(req,res)=>{
 
 router.post('/', async (req,res)=>{
     //check again
+    //will be update
     let user = new User({
         name: req.body.name,
         email: req.body.email,
